@@ -1,0 +1,20 @@
+/* Default style */
+.custom-button {
+    -fx-background-color: black;
+    -fx-border-color: transparent; /* Initial border color */
+    -fx-border-width: 5px;
+}
+
+/* Style for when the button is hovered */
+.custom-button:hover {
+    -fx-border-color: blue; /* Border color when hovered */
+}
+
+/* Active hover style */
+.active-hover {
+    -fx-border-color: blue; /* Border color when active */
+}
+
+.active-hover2 {
+    -fx-border-color: orange; /* Border color when active */
+}
